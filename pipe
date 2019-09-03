@@ -1,10 +1,27 @@
-pipeline {
+pipeline 
+{ 
     agent any
-    stages {
-        stage('build') {
-            steps {
-                sh 'mvn --version'
+        stages{
+            stage('one')
+            {
+              steps
+              {
+                  echo "hello world"  
             }
         }
+        stage('two')
+        {
+            steps
+            { 
+                sh "java -version"
+        }
     }
+    stage ('three')
+    {
+        steps
+        {
+            input ("do you want to proceed ")
+        }
+    }
+}
 }
