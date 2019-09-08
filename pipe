@@ -1,3 +1,5 @@
+def foo = "foo"
+
 pipeline 
 { 
     agent any
@@ -30,5 +32,12 @@ pipeline
               echo " you have reached the final stage "
     }
     }
+    stage ('five')
+    {
+    steps
+    {
+       sh "echo ${foo}"
+       }
+     }  
 }
 }
