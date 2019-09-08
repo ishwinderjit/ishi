@@ -25,13 +25,10 @@ pipeline
     }
     stage ('four')
     {
-       if( input == ' proceed ')
-            { 
-              echo " simu kaka is the best "
-            }
-         else 
-          {
+       steps
+       {
           echo " pls love him "
     } 
+    }
 }
 }
