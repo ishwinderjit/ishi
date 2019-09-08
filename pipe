@@ -21,7 +21,7 @@ pipeline
     {
         steps
         {
-            input ("do you want to proceed ")
+            input ("do you love , ish ? ")
         }
     }
     stage ('four')
