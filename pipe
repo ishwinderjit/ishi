@@ -1,4 +1,3 @@
-
 pipeline 
 { 
     agent any
@@ -29,8 +28,7 @@ pipeline
        steps
             { 
               echo " simu kaka is the best "
-    }
-    }
-  
+            }
+    } 
 }
 }
