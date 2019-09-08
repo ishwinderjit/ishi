@@ -25,7 +25,7 @@ pipeline
     }
     stage ('four')
     {
-       steps
+       if( input = " proceed ")
             { 
               echo " simu kaka is the best "
             }
