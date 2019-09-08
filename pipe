@@ -24,8 +24,6 @@ pipeline
             input ("do you want to proceed ")
         }
     }
-    ansiColor('xterm')
-    {
     stage ('four')
     {
        steps
@@ -33,6 +31,6 @@ pipeline
               echo " simu kaka is the best "
     }
     }
-  }
+  
 }
 }
