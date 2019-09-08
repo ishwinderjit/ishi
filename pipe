@@ -25,11 +25,10 @@ pipeline
     }
     stage ('four')
     {
-    steps
-    { 
-    echo ( " you have reached the final stage ")
+       steps
+            { 
+              echo " you have reached the final stage "
     }
     }
-}
 }
 }
